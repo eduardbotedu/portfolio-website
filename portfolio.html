@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Eduard Bot — Portfolio</title>
+        <meta
+            name="description"
+            content="Eduard Bot — student portfolio showcasing web projects created for BATECH189 (Webpage Authoring Essentials)." />
+
+        <!-- Google fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Pacifico&family=Montserrat:wght@500;700&family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet" />
+
+        <link rel="stylesheet" href="stylesheet.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-row">
+                <div class="branding">
+                    <!-- simple SVG "logo" squares + circle like your example -->
+                    <svg class="logo-shapes" viewBox="0 0 140 40" aria-hidden="true">
+                        <rect x="0" y="5" width="26" height="30" rx="4" fill="#777777" />
+                        <rect x="28" y="6" width="26" height="29" rx="4" fill="#9a9a9a" />
+                        <rect x="56" y="7" width="26" height="28" rx="4" fill="#b2b2b2" />
+                        <rect x="84" y="8" width="26" height="27" rx="4" fill="#d0d0d0" />
+                        <circle cx="122" cy="20" r="14" fill="#ececec" />
+                    </svg>
+                    <h1 class="site-title">Eduard Bot</h1>
+                </div>
+
+                <nav class="main-nav" aria-label="Main navigation">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- center white panel on patterned page background -->
+        <div class="page-shell">
+            <div class="container content-panel">
+                <main class="main-content" id="main">
+                    <section class="course-intro">
+                        <h2>Course Overview</h2>
+                        <p>
+                            In the course BATECH189 - Webpage Authoring Essentials, I have expanded my knowledge of HTML
+                            and CSS — learning semantic structure, accessible markup, responsive layout techniques, and
+                            typography for web readability. Below are the projects I created during the course.
+                        </p>
+                    </section>
+
+                    <h2 class="projects-heading">Projects Created in BATECH189 - Webpage Authoring Essentials</h2>
+
+                    <section class="project-grid" aria-label="Course projects">
+                        <!-- Project 1 -->
+                        <article class="project-card">
+                            <h3>Project 1: Resume</h3>
+                            <a
+                                href="https://eduardbotedu.github.io/project1/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <img src="resume.png" alt="Screenshot of Project 1: Resume style single page" />
+                            </a>
+                            <p>
+                                <strong>Resume Project:</strong> A simple resume/portfolio page built with semantic HTML
+                                and basic responsive CSS. Demonstrates headings, lists, links, and a clear content
+                                structure.
+                            </p>
+                        </article>
+
+                        <!-- Project 2 -->
+                        <article class="project-card">
+                            <h3>Project 2: How-to</h3>
+                            <a
+                                href="https://eduardbotedu.github.io/project2/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <img src="How-to.png" alt="Screenshot of Project 2: single-page layout with sections" />
+                            </a>
+                            <p>
+                                <strong>Single-Page Layout:</strong> A single-page layout composed of five sections,
+                                with consistent styling, images, and semantic organization for accessibility and
+                                readability.
+                            </p>
+                        </article>
+                        <!-- Project 3 -->
+                        <article class="project-card">
+                            <h3>Project 3: Favorite Place</h3>
+                            <a
+                                href="https://eduardbotedu.github.io/project3/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <img src="FavoritePlace.png" alt="Screenshot of Project 3: Favorite place page" />
+                            </a>
+                            <p>
+                                <strong>Favorite Place Page:</strong> A themed "favorite place" webpage showcasing
+                                content organization, image integration, and responsive layout choices for different
+                                screens.
+                            </p>
+                        </article>
+                        <!-- Project 4 -->
+                        <article class="project-card">
+                            <h3>Project 4: E-Book</h3>
+                            <a href="https://eduardbotedu.github.io/project4/" target="_blank">
+                                <img src="E-Book.png" alt="Screenshot of Project 4 e-book" />
+                            </a>
+                            <p>
+                                <strong>E-Book Project:</strong> Converted a classic story into a web-based e-book
+                                format using HTML and CSS, with attention to typography and readability.
+                            </p>
+                        </article>
+                    </section>
+                </main>
+            </div>
+            <!-- .content-panel -->
+        </div>
+        <!-- .page-shell -->
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>&copy; 2025 Eduard Bot</p>
+            </div>
+        </footer>
+    </body>
+</html>
