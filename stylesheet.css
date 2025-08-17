@@ -1,13 +1,12 @@
 :root {
-    --white: #ffffff; /* soft border / accent */
-    --muted: #f7f6f8; /* panel background */
-    --text: #fff; /* text is now white */
+    --white: #ffffff;
+    --muted: #f7f6f8;
+    --text: #fff;
     --btn-text: #fff;
     --card-border: #000000;
-    --background: #c1121f; /* deep red */
+    --background: #a8101a;
 }
 
-/* Base */
 * {
     box-sizing: border-box;
 }
@@ -31,14 +30,12 @@ body {
     line-height: 1.45;
 }
 
-/* container width */
 .container {
     width: calc(100% - 48px);
     max-width: 1180px;
     margin: 0 auto;
 }
 
-/* Header */
 .site-header {
     padding: 28px 0 18px;
     background: transparent;
@@ -70,7 +67,6 @@ body {
     color: white;
 }
 
-/* Nav - Flexbox */
 .main-nav ul {
     list-style: none;
     margin: 0;
@@ -92,7 +88,6 @@ body {
     background: transparent;
 }
 
-/* Profile Image */
 .profile-img {
     max-width: 100px;
     width: 50%;
@@ -108,7 +103,6 @@ body {
     margin-top: 0.5rem;
     font-style: italic;
 }
-/* page white panel */
 .page-shell {
     padding: 24px 0 60px;
 }
@@ -122,7 +116,6 @@ body {
     gap: 28px;
 }
 
-/* main + aside layout */
 @media (min-width: 920px) {
     .content-panel {
         grid-template-columns: 2fr 360px;
@@ -148,7 +141,6 @@ body {
     text-decoration: underline;
 }
 
-/* course intro paragraph */
 .course-intro p {
     margin: 0 0 18px 0;
     text-align: left;
@@ -156,7 +148,6 @@ body {
     line-height: 1.42;
 }
 
-/* projects heading */
 .projects-heading {
     text-align: center;
     color: var(--white);
@@ -180,7 +171,6 @@ body {
     border-radius: 2px;
 }
 
-/* Grid of project cards */
 .project-grid {
     display: grid;
     gap: 22px;
@@ -197,7 +187,6 @@ body {
     }
 }
 
-/* Project card */
 .project-card {
     background: rgba(255, 255, 255, 0.1);
     border: 3px solid var(--card-border);
@@ -218,7 +207,6 @@ body {
     margin: 0 auto;
 }
 
-/* top tile image */
 .tile-image {
     height: 210px;
     border: 6px solid rgba(255, 255, 255, 0.3);
@@ -235,7 +223,6 @@ body {
     display: block;
 }
 
-/* card text */
 .project-card h3 {
     margin: 0;
     color: var(--white);
@@ -248,7 +235,6 @@ body {
     flex: 1;
 }
 
-/* Footer */
 .site-footer {
     margin-top: 28px;
     padding: 24px 0;
@@ -259,7 +245,6 @@ body {
     margin: 0;
 }
 
-/* smaller screens */
 @media (max-width: 640px) {
     .header-row {
         flex-direction: column;
